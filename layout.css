@@ -1,0 +1,130 @@
+.parent{
+        width: 100%;
+        height:100svh;
+    border:2px solid black;
+    background-color:rgb(234, 237, 239);
+.child1{
+ width:100%;
+ height:50px;
+ border:5px solid white;
+ background-color: whitesmoke;
+ position:relative;
+ top:20px;
+}
+.preview{
+   height:25px;
+   width:70px;
+   background-color: rgb(82, 219, 82);;
+   position:relative;
+   top:14px;
+   left:150px;
+}
+.HTML{
+    height:25px;
+    width:70px;
+    background-color:rgb(0, 162, 255);
+    position: relative;
+    top:14px;
+    left:160px;
+}
+.CSS{
+    height:25px;
+    width:70px;
+    background-color:rgb(0, 162, 255);
+    position:relative;
+    top:14px;
+    left:170px;
+}
+.DOWNLOAD{
+    height:25px;
+    width:100px;
+    background-color:rgb(0, 162, 255);
+    position: relative;
+    top:14px;
+    left:180px;
+}
+.Action{
+    height:25px;
+    width:70px;
+    background-color:brown;
+    position: relative;
+    top:14px;
+    left:190px;
+}
+.child2{
+      height:450px;
+      width:250px;
+      border:3px white;
+      background-color: white;
+      position:relative;
+      top: 60px;
+      left:10px;  
+}
+.child3{
+    height:140px;
+    width:140px;
+    border:2px solid rgb(76, 114, 192);
+    background-image: url("https://th.bing.com/th/id/OIP.phAvqagOOkyoBQ8JEDgNzAHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size: 140px;
+    border-radius:70px;
+    position:relative;
+    top: 20px;;
+    left:40px;
+}
+.child4{
+   position:relative;
+   top: 40px;
+   left:100px;
+   color:grey;
+}
+.child5{
+    position:relative;
+   top: 50px;
+   left:55px;
+   color:grey;
+}
+.child6{
+    position:relative;
+   top: 60px;
+]\
+   left:50px;
+   color:grey;
+}
+.Follow{
+     position: relative;
+      top:70px;
+      left:40px;
+      background-color: blue;
+      color: white;
+      border:2px solid blue;
+}
+.Message{
+    position: relative;
+    top:70px;
+    left:50px;
+    border:2px solid blue;
+    color: blue;
+}
+.child7{
+    height:10px;
+    width:230px;
+    border-bottom: 2px solid rgb(202, 193, 193);
+    position:relative;
+    top:70px;
+    left:10px;
+}
+.white{
+    height:200px;
+    width:300px;
+    border:2px solid black;
+    position:relative;
+    bottom:390px;
+    left:270px;
+    padding-top: 10px; 
+}
+.email{
+    padding-top: 10px;
+}
+.number{
+    padding-top: 10px;
+}

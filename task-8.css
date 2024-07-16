@@ -1,0 +1,158 @@
+.parent{
+    height:100%;
+    width:1200px;
+    border:2px solid  rgb(1, 32, 61);
+   /* background-color: rgb(66, 122, 174);*/
+   background: linear-gradient( #00d4ff,#090979 );
+}
+.child1{
+    height:15px;
+    width:15px;
+    border: 2px solid black;
+    background-color:#00d4ff ;
+    position:absolute;
+    top:20px;
+    left:20px;
+    z-index:2;
+}
+.child2{
+    height:15px;
+    width:15px;
+    border: 2px solid black;
+    background-color: black;
+    position:absolute;
+    top:25px;
+    left:25px;
+    z-index:1;
+}
+.child3{
+    height:15px;
+    width:15px;
+    font-size: 25px;
+    position:absolute;
+    top:17px;
+    left:50px;
+}
+.child4{
+    position:relative;
+    top:20px;
+    left:250px;
+}
+.child5{
+    position:relative;
+  top: 2px;;
+    left:330px;
+    color:white;
+}
+.child6{
+    position:relative;
+    bottom:16px;
+    left:490px;
+    color:white;
+}
+.child7{
+    position:relative;
+    bottom:35px;
+    left:640px;
+    color:white;
+}
+.child8{
+    position:relative;
+    bottom:53px;
+    left:720px;
+    color:white;
+}
+.child9{
+    position:relative;
+    bottom:70px;
+    left:820px;
+    color:white;
+}
+.child10{
+    font-size:49px ;
+    color:white;
+    position:relative;
+    left:320px;
+   top:20px;
+}
+.child11{
+    height:30px;
+    width:400px;
+    border:2px solid white;
+    border-radius: 15px;
+    color:black;
+    background-color: white;
+    padding-top:10px;
+    padding-left: 25px;
+    position:relative;
+    top:80px;
+    left:350px;
+}
+.child12{
+    font-size: 20px;
+    position: relative;
+    left:400px;
+    bottom:10px;
+}
+.search{
+    height:20px;
+    width:60px;
+    border:2px solid aqua;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: aqua;
+    position: relative;
+    left:640px;
+    top:20px;
+}
+.border{
+    height:340px;
+    width:260px;
+    border:2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 50px black;
+    position:relative;
+    left:120px;
+    top:70px;
+}
+.head{
+    font-size: 20px;
+    position: relative;
+    left:25px;
+    top:15px;
+}
+.matter{
+    position:relative; 
+    top:33px;
+    left:5px;
+}
+.matter2{
+    position:relative; 
+    top:37px;
+    left:7px;
+}
+.matter3{
+    position:relative; 
+    top:40px;
+    left:5px;
+}
+.matter4{
+    position:relative; 
+    top:42px;
+    left:7px;
+}
+.num{
+    height:20px;
+    width:20px;
+    border:3px solid blue;
+    background-color: blue;
+    position: relative;
+    left:220px;
+    bottom:80px;
+}
+.image{
+
+}

@@ -1,0 +1,24 @@
+.parent{
+    /* border:2px solid red; */
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    cursor: pointer;
+}
+.child{
+    border:2px solid red;
+    width:fit-content;
+    height:fit-content;
+    position: absolute;
+}
+.child1{
+    border:2px solid red;
+    width:fit-content;
+    height:fit-content;
+    position:absolute;
+    top:60px;
+    display:none;
+}
+.parent:hover .child1{
+    display: block;
+}

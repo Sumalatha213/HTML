@@ -1,0 +1,37 @@
+.parent{
+    height:600px;
+    width: 1200px;
+    border:2px solid black;
+    background-image: url("https://wallpaperaccess.com/full/695413.jpg");
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.child{
+     height:160px;
+     width:160px;
+     background-image: url("https://purepng.com/public/uploads/large/purepng.com-earthearthplanetglobethird-planet-from-the-sun-1411526987828wxj1f.png");
+     background-size: 150px;
+     background-repeat: no-repeat;
+}
+.child1{
+    height:100px;
+    width:100px;
+    border:4opx solid white;
+    background-color:white;
+    border-radius:50px;
+    position:relative;
+    right:130px;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform: rotate(45deg) translateX(100px);
+}
+@keyframes myanimation {
+  0%{
+    transform: rotate(0deg) translateX(300px);
+  }
+  100%{
+    transform: rotate(360deg) translateX(300px);
+  }
+}

@@ -1,0 +1,34 @@
+.parent li::after{
+  content:"suma";
+  color:aqua;
+}
+button{
+    height:35px;
+    width:95px;
+    color:hotpink;
+    border:2px solid hotpink ;
+    border-radius:10px;
+    overflow: hidden;
+    position:relative;
+    z-index:99999;
+    transition: all 1s;
+
+}
+button::before{
+    content:"";
+    height:35px;
+    width:95px;
+    background-color: aqua;
+    border-radius:10px;
+    transition: all 1s;
+    position: absolute;
+    top:0px;
+    left:200px;
+}
+button:hover{
+    color:white;
+}
+button:hover::before{
+    left:0px;
+    z-index:-99999;
+}

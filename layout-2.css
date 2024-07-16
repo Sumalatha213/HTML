@@ -1,0 +1,39 @@
+.parent{
+    height:200svh;
+    width:100%;
+    border:2px solid black;
+    background-color: rgb(228, 191, 221);
+    display:flex;
+   justify-content:center;
+   display:grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns:  1fr 1fr 1fr;
+   flex-wrap:wrap;
+   display:flex;
+   justify-content: space-evenly;
+}
+.child{
+    height:290px;
+    width:160px;
+    border:2px white;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 30px rgb(138, 129, 129);
+    position:relative;
+    top:10px;
+    left:20px;
+}
+.iphone6{
+    text-align:left;
+    font-size: 30px;
+    position:relative;
+    top:240px;
+    left:25px;
+}
+.iphone7{
+    text-align:left;
+    font-size: 30px;
+    position:relative;
+    top:240px;
+    left:25px;
+}

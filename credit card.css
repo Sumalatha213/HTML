@@ -1,0 +1,64 @@
+.parent{
+    height:100%;
+    width:100%;
+    border:3px solid grey
+}
+.child{
+    height:40%;
+    width:70%;
+    border:2px solid black;
+    background-image: url("https://wallpapercave.com/wp/prWMsds.jpg");
+    position:relative;
+    top:100px;
+    left: 100px;
+}
+.child1{
+    height:250px;
+    width:560px;
+    background-image: url("https://logos-download.com/wp-content/uploads/2022/01/SBI_Card_Logo.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    position:relative;
+    left:406px;
+    bottom:110px;
+}
+.child2{
+    height:15px;
+    width:40px;
+    border:3px solid rgb(3, 3, 125);
+    background-color: rgb(3, 3, 125);
+    font-size: 14px;
+    color: aliceblue;
+    position:absolute;
+    top:127px;
+       left:455;
+}
+.child3{
+    font-size: 20px;
+    font-family:cursive;
+    position: relative;
+   bottom:300px;
+   left:370px;
+   color: rgb(202, 200, 200);
+}
+.child4{
+    color:white;
+    position:relative;
+    top:90px;
+     right:20px;
+     font-size: 15px;
+     color:grey;
+}
+.child5{
+position:relative;
+top:140px;
+right:220px;
+color:white;
+}
+.child6{
+    position:relative;
+top:90px;
+right:200px;
+font-size:25px;
+color:white;
+}

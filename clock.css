@@ -1,0 +1,138 @@
+body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.parent{
+    height:200px;
+    width:200px;
+    border:6px solid black;
+    border-radius:100px;
+    background-color: rgb(215, 203, 203);
+}
+.child{
+    font-size:25px;
+    position: relative;
+    top:5px;
+    left:85px;
+}
+.child1{
+    font-size:25px;
+    position: relative;
+    bottom:10px;
+    left:35px; 
+}
+.child2{
+    font-size:25px;
+    position: relative;
+    bottom:4px;
+    left:8px;
+}
+.child3{
+    font-size:25px;
+    position: relative;
+    top: 7px;
+    left:8px;
+}
+.child4{
+    font-size:25px;
+    position: relative;
+    top: 16px;
+    left:16px;
+}
+.child5{
+    font-size:25px;
+    position: relative;
+    top: 18px;
+    left:44px;
+}
+.child6{
+    font-size:25px;
+    position: relative;
+    bottom:0px;
+    left:85px;
+}
+.child7{
+      font-size:25px;
+    position: relative;
+    bottom:35px;
+    left:130px;
+}
+.child8{
+    font-size:25px;
+    position: relative;
+    bottom:90px;
+    left:165px;
+}
+.child9{
+    font-size:25px;
+    position: relative;
+    bottom:160px;
+    left:175px;
+}
+.child10{
+    font-size:25px;
+    position: relative;
+    bottom:230px;
+    left:180px;
+}
+.child11{
+    font-size:25px;
+    position: relative;
+    bottom:300px;
+    left:150px;
+}
+.child12{
+    height:30px;
+    width:30px;
+    border:2px solid black;
+    background-color:black;
+    border-radius:20px;
+    position:relative;
+    bottom:265px;
+    left:80px;
+}
+.child13{
+    height:60px;
+    width:2px;
+    border:2px solid black;
+    background-color:black;
+    border-radius:10px;
+    position:relative;
+    bottom:335px;
+    left:95px;
+}
+.child14{
+    height:70px;
+    width:1px;
+    border:1px solid black;
+    background-color:black;
+    border-radius:10px;
+    position:relative;
+    bottom:415px;
+    left:97px;
+    animation-name: division;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes division{
+    from{
+    transform: rotate(0deg) translateX(-5px);
+} 
+to{
+    transform: rotate(360deg) translateY(-5px);
+}
+}
+.child15{
+    height:70px;
+    width:2px;
+    border:1px solid black;
+    background-color:black;
+    border-radius:10px;
+    position:relative;
+    bottom:445px;
+    left:125px;
+    transform:rotate(90deg);
+}

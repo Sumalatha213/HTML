@@ -1,0 +1,13 @@
+.first{
+    height:100%;
+    width:100%;
+    border:5px solid black ;
+    text-align: center;
+    font-style: oblique;
+    font-size:200px;
+    background-image: url("https://th.bing.com/th/id/OIP.u2vcdg52TqA__QNyXlo-QQAAAA?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    color: transparent;
+    background-clip:text;
+    padding-top: 100px;

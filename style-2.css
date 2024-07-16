@@ -1,0 +1,36 @@
+.first{
+    border-radius:20px ;
+    border-top: 5px solid rgb(159, 203, 180);
+    border-right: 5px solid black;
+    border-bottom: 5px solid rgb(157, 87, 17);
+    border-left: 5px solid black;
+}
+.parent{
+    border-radius:20px ;
+    border-top: 5px solid black;
+    border-right:5px solid black;
+    border-bottom: 5px solid black;
+    border-left:5px solid #000000; 
+    padding-bottom:20px;
+    }
+    .child{
+        margin-top: 10px;
+        margin-right:20px: ;
+        margin-bottom:20px;
+        margin-left:20px;
+        border-radius:20px ;
+        border-top: 5px solid black;
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+        border-left: 5px solid black;
+  }
+  .suma{
+    margin: 20px;
+    height:400px width: 400px;
+    padding-top:30px;
+    border-top: 5px solid black;
+    border-right:5px solid black;
+    border-bottom: 5px solid black;
+    border-left:5px solid #000000;
+  }
+   

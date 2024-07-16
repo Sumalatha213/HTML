@@ -1,0 +1,240 @@
+.parent{
+    height:300px;
+    width:900px;
+    border:3px solid black;
+    border-radius: 20px;
+    background-color:black;
+    position:relative;
+    top:90px;
+    left:220px;
+}
+.child{
+    height:140px;
+    width:20px;
+    border:3px solid white;
+    background-color: white;
+    position:relative;
+    bottom:27px;
+    left:840px;
+    transform: rotate(50deg);
+    padding:4px;
+    z-index: 2px;
+}
+.child1{
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid black;
+	border-bottom: 25px solid transparent;
+    transform: rotate(320deg);
+    position:relative;
+    left: 777px;
+    bottom:82px;
+    z-index: 2px;
+}
+.child2{
+    height:140px;
+    width:20px;
+    border:3px solid rgb(210, 152, 7);
+    background-color: rgb(210, 152, 7);
+    position:relative;
+    bottom:160px;
+    left:850px;
+    transform: rotate(50deg);
+    padding:4px;
+}
+.child3{
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid black;
+	border-bottom: 25px solid transparent;
+    transform: rotate(320deg);
+    position:relative;
+    left: 787px;
+    bottom:216px;
+}
+.child4{
+    height:140px;
+    width:20px;
+    border:3px solid rgb(210, 152, 7) ;
+    background-color:rgb(210, 152, 7);
+    position:relative;
+    bottom:450px;
+    left:760px;
+    transform: rotate(50deg);
+    padding:4px;
+}
+.child5{
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid black;
+	border-bottom: 25px solid transparent;
+    transform: rotate(320deg);
+    position:relative;
+    left: 705px;
+    bottom:513px;
+}
+.child6{
+position:relative;
+left:0px;
+bottom:600px;
+}
+.child7{
+    position:relative;
+    bottom:1030px;
+}
+.child8{
+    height:190px;
+    width:190px;
+    background-image: url("https://i.pinimg.com/originals/ab/88/c3/ab88c34ec13143d797e2a249e2b60fae.png");
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    justify-content: fit-content;
+    position:relative;
+    bottom:800px;
+    left:27px;
+}
+.child9{
+    font-size: 40px;
+    position: relative;
+    bottom:1300px;
+    left:330px;
+    color: rgb(210, 152, 7);
+}
+.fan{
+    font-size: 40px;
+    position:relative;
+    bottom:1280px;
+    left:711px;
+    color:white;
+    z-index: 1px;
+}
+.pass{
+    font-size: 30px;
+    position:relative;
+    bottom:1280px;
+    left:711px;
+    color:white;
+}
+.pass1{
+    font-size: 30px;
+    position:relative;
+    bottom:1280px;
+    left:710px;
+    color:white;
+}
+.pass2{
+    font-size: 30px;
+    position:relative;
+    bottom:1280px;
+    left:711px;
+    color:white;
+}
+.pass3{
+    font-size: 30px;
+    position:relative;
+    bottom:1280px;
+    left:711px;
+    color:white;
+}
+.name{
+    font-size: 25px;
+    position:relative;
+    bottom:1460px;
+    left:211px;
+    color:white;
+}
+.roll{
+    font-size: 25px;
+    position:relative;
+    bottom:1450px;
+    left:211px;
+    color:white;
+}
+.branch{
+    font-size: 25px;
+    position:relative;
+    bottom:1440px;
+    left:211px;
+    color:white;
+}
+.college{
+    font-size: 25px;
+    position:relative;
+    bottom:1430px;
+    left:211px;
+    color:white;
+}
+.square{
+    height:20px;
+    width:20px;
+    border:2px solid greenyellow;
+    background-color: green;
+    position:relative;
+    bottom:1650px;
+    left:10px;
+    z-index: 3px;
+}
+.square1{
+    height:20px;
+    width:20px;
+    border:2px solid green;
+    background-color:greenyellow;
+    position:relative;
+    bottom:1670px;
+    left:18px;
+}
+.logo{
+    position:relative;
+    bottom:1650px;
+    left:10px;
+    color: green;
+    position:relative;
+    left:45px;
+    bottom:1690px;
+}
+.white{
+    height:40px;
+    width:70px;
+    border:3px solid white;
+    background-color: white;
+    position:relative;
+    bottom:1768px;
+    left:780px;
+}
+.white1{
+    height:90px;
+    width:70px;
+    border:3px solid white;
+    background-color: white;
+    position:relative;
+    bottom:1710px;
+    left:902px;
+}
+.qr{
+    font-size: 25px;
+    position:relative;
+    bottom:1600px;
+    left:760px;
+    color:antiquewhite;
+}
+.suma{
+    font-size: 20px;
+    position:relative;
+    bottom:1690px;
+    left:70px;
+    color:darkmagenta;
+}
+.QRcode{
+    height:100%;
+    width:100%;
+    background-image: url("https://th.bing.com/th/id/OIP.ifa8GFCtfbXfvZVh0HB7SAHaHa?rs=1&pid=ImgDetMain");
+    background-size: 120px;
+    background-repeat: no-repeat;
+    position:relative;
+    bottom:1780px;
+    left:760px;
+    z-index:3;
+}
